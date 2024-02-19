@@ -1,6 +1,6 @@
 *{
     background-color: aliceblue;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     margin: 0;
 }
 
@@ -8,17 +8,23 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    margin-top: 5%;
+    width: 450px;
+    transition: transform .2s;
+}
+#clicker:active{
+    transform: scale(1.2);
 }
 
 h1{
     color: darkblue;
+    font-size: 230%;
 }
 h2{
     color: blue;
 }
 
-header{
+.title{
     display: flex;
     justify-content: space-between;
     margin: 1%;
