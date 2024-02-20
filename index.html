@@ -17,12 +17,14 @@
     <body>
         <img src="images/Kais/1Kai.png" alt="click here" id="clicker" onclick="pointUp()">
 
-        <section class="shop">
-            <div class="title">
+        <section>
+
+            <div class="shop title">
                 <h1>Shop!</h1>
                 <h1 id="pointCounter">0 Points</h1>
             </div>
-            <div>
+
+            <div class="shopBox">
                 <h2><u>Upgrade Kai</u></h2>
                 <div class="upgradeBox">
                     <div class="upgradeItem">
@@ -34,13 +36,38 @@
                     </div>
                 </div>
             </div>
+
+            <div class="shopBox">
+                <h2><u>AutoClickers</u></h2>
+                <div class="upgradeBox">
+                    <div class="upgradeItem">
+                        <h3 id="autoName">-Amogus-</h3>
+                        <h3>+1 Points per 10 Seconds</h3>
+                    </div>
+                    <div class="upgradeItem">
+                        <button onclick="upgrade()"><h2 id="autoCost">Next Update</h2></button>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
+
+        <section>
+            <h1 class="title">Stats!</h1>
+            <h3 id="clickStat">1 Points/Click</h3>
+            <h3 id="autoStat">0 Points/Second</h3>
+        </section>
+        
+
+        <section>
+            <h1 class="title">Update!</h1>
+            <h2>ver 0.03</h2>
+            <h3>-Fixed bug where multiple upgrades would be purchased if point count was high enough</h3>
+            <h3>-Added autoclickers placeholders (TBA)</h3>
+            <h3>-Max Kai upgrades increased to 13</h3>
+            <h3>-Changed click sound again cus why not</h3>
+        </section>
+       
     </body>
-
-    <footer>
-        <h1>Stats</h1>
-        <h3 id="clickStat">Points/Click: 1</h3>
-    </footer>
-
-
 </html>
