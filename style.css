@@ -10,7 +10,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
     width: 450px;
     transition: transform .2s;
 }
@@ -21,12 +20,19 @@
 h1{
     color: darkblue;
     font-size: 230%;
+    background-color: transparent;
 }
 h2{
     color: blue;
+    background-color: transparent;
 }
 #pointCounter{
     color: blue;
+    background-color: transparent;
+}
+h3{
+    color: cornflowerblue;
+    background-color: transparent;
 }
 
 header{
@@ -36,7 +42,22 @@ header{
 .title{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.shop{
+    margin: 3%;
+}
+
+button{
+    border: 0;
+    border-radius: 20px;
+    background-color: aquamarine;
     margin: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    margin: 3%
 }
