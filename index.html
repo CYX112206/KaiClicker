@@ -15,7 +15,17 @@
     </header>
 
     <body>
-        <img src="images/Kais/1Kai.png" alt="click here" id="clicker" onclick="pointUp()">
+        <section id="visuals">
+            <div class="visualItem">
+                <img src="images/Assists/placeholder.png" alt="leftAssists" id="left" style="width:100%">
+            </div>
+            <div class="visualItem">
+                <img src="images/Kais/1Kai.png" alt="click here" id="clicker" onclick="pointUp()" style="width:100%">
+            </div>
+            <div class="visualItem">
+                <img src="images/Assists/placeholder.png" alt="rightAssists" id="right" style="width:100%">
+            </div>
+        </section>
 
         <section>
 
@@ -24,49 +34,51 @@
                 <h1 id="pointCounter">0 Points</h1>
             </div>
 
-            <div class="shopBox">
-                <h2><u>Upgrade Kai</u></h2>
-                <div class="upgradeBox">
-                    <div class="upgradeItem">
-                        <h3 id="kaiName">-Red Kai-</h3>
-                        <h3>+1 Points per Click</h3>
+            <div id="shop">
+                <div class="shopBox">
+                    <h2><u>Upgrade Kai</u></h2>
+                    <div>
+                        <div>
+                            <h3 id="kaiName">-Red Kai-</h3>
+                            <h3>+1 Points per Click</h3>
+                        </div>
+                        <div>
+                            <button onclick="upgrade()"><h2 id="kaiCost">50 Points</h2></button>
+                        </div>
                     </div>
-                    <div class="upgradeItem">
-                        <button onclick="upgrade()"><h2 id="kaiCost">50 Points</h2></button>
+                </div>
+    
+                <div class="shopBox">
+                    <h2><u>Assists</u></h2>
+                    <div >
+                        <div>
+                            <h3 id="assistName">-Amogus-</h3>
+                            <h3>+1 Click per 20 Seconds</h3>
+                        </div>
+                        <div>
+                            <button onclick="assistgrade()"><h2 id="assistCost">50 Points</h2></button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="shopBox">
-                <h2><u>AutoClickers</u></h2>
-                <div class="upgradeBox">
-                    <div class="upgradeItem">
-                        <h3 id="autoName">-Amogus-</h3>
-                        <h3>+1 Points per 10 Seconds</h3>
-                    </div>
-                    <div class="upgradeItem">
-                        <button onclick="upgrade()"><h2 id="autoCost">Next Update</h2></button>
-                    </div>
-                </div>
-            </div>
-
+            
 
         </section>
 
         <section>
             <h1 class="title">Stats!</h1>
             <h3 id="clickStat">1 Points/Click</h3>
-            <h3 id="autoStat">0 Points/Second</h3>
+            <h3 id="assistStat">0 Clicks/15 Seconds</h3>
         </section>
         
 
         <section>
             <h1 class="title">Update!</h1>
-            <h2>ver 0.03</h2>
-            <h3>-Fixed bug where multiple upgrades would be purchased if point count was high enough</h3>
-            <h3>-Added autoclickers placeholders (TBA)</h3>
-            <h3>-Max Kai upgrades increased to 13</h3>
-            <h3>-Changed click sound again cus why not</h3>
+            <h2>ver 0.04: Assists</h2>
+            <h3>-Added 5 assist levels</h3>
+            <h3>-Added update log page (click below!)</h3>
+            <h3>-Maid kai has been shot in the back alley due to The Man's request</h3>
+            <button onclick="window.open('updates.html','_blank')"><h2>Update Log</h2></button>
         </section>
        
     </body>
