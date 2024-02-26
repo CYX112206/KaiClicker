@@ -58,7 +58,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/4Rainbow.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Nega Kai-";
-            document.getElementById("kaiCost").textContent = "300";
+            document.getElementById("kaiCost").textContent = "300 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -73,7 +73,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/5Nega.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Deepfried Kai-";
-            document.getElementById("kaiCost").textContent = "500";
+            document.getElementById("kaiCost").textContent = "500 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -88,7 +88,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/6Deepfried.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Abstract Kai-";
-            document.getElementById("kaiCost").textContent = "900";
+            document.getElementById("kaiCost").textContent = "900 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -103,7 +103,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/7Abstract.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Balloon Kai-";
-            document.getElementById("kaiCost").textContent = "1400";
+            document.getElementById("kaiCost").textContent = "1400 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -118,7 +118,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/8Balloon.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Reaction Kai-";
-            document.getElementById("kaiCost").textContent = "2200";
+            document.getElementById("kaiCost").textContent = "2200 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -133,7 +133,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/9Reaction.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Gaming Kai-";
-            document.getElementById("kaiCost").textContent = "3150";
+            document.getElementById("kaiCost").textContent = "3150 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -148,7 +148,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/10Gaming.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Mememax Kai-";
-            document.getElementById("kaiCost").textContent = "4500";
+            document.getElementById("kaiCost").textContent = "4500 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -163,7 +163,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/11Meme.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Junkrat Kai-";
-            document.getElementById("kaiCost").textContent = "6050";
+            document.getElementById("kaiCost").textContent = "6050 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
@@ -178,7 +178,7 @@ function upgrade() {
             document.getElementById("clicker").src = "images/Kais/12Junkrat.png";
             document.getElementById("pointCounter").textContent = points + " Points";
             document.getElementById("kaiName").textContent = "-Joker Kai-";
-            document.getElementById("kaiCost").textContent = "7800";
+            document.getElementById("kaiCost").textContent = "7800 Points";
             document.getElementById("clickStat").textContent = increase + " Points/Click";
         }
         return
