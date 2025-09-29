@@ -90,8 +90,15 @@ footer{
     margin-right: 10%;
     padding: 0.5%;
     padding-left: 2%;
+    padding-right: 2%;
     transition: transform .2s;
 }
 .version:hover{
     transform: scale(1.05);
+}
+
+.logTitle{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(195, 227, 255);
 }
