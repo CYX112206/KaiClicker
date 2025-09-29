@@ -1,4 +1,4 @@
-let points = 100000;
+let points = 0;
 let increase = 1;
 let kaiLevel = 0;
 let assistlevel = 0;
